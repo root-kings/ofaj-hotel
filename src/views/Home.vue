@@ -6,12 +6,13 @@
 
 <script>
 // @ is an alias to /src
-import Camera from "@/components/Camera.vue";
+import table from "@/components/table.vue";
 
 export default {
   name: "home",
   components: {
-    Camera
+    table
   }
 };
 </script>
+
